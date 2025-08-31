@@ -636,7 +636,7 @@
                 },
                 {
                     "id": 8,
-                    "img": "images/pictures/sci.png",
+                    "img": "images/pictures/sea.png",
                     "faIcon": "fa-brands fa-numpy",
                     "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
                     "percentage": 70,
@@ -665,7 +665,7 @@
                     "percentage": 70,
                     "locales": {
                         "en": {
-                            "title": "Seaborn",
+                            "title": "Keras",
                             "text": "Experienced in Keras for designing, building, and training neural network models efficiently in Python.",
                             "level": ""
                         },
@@ -807,7 +807,7 @@
     "items": [
         {
             "id": 1,
-            "img": "images/pictures/latex.png",
+            "img": "images/pictures/lat.png",
             "faIcon": "fa-solid fa-code",
             "faIconColors": {"bg": "", "fill": "#008080", "fillLight": "#00a3a3"},
             "percentage": 100,
@@ -821,8 +821,8 @@
         },
         {
             "id": 2,
-            "img": "images/pictures/ms-office.png",
-            "faIcon": "fa-solid fa-file-word",
+            "img": "images/pictures/ms.png",
+            "faIcon": "fa-solid fa-ms",
             "faIconColors": {"bg": "", "fill": "#2B579A", "fillLight": "#4a6fb4"},
             "percentage": 95,
             "locales": {
@@ -835,7 +835,7 @@
         },
         {
             "id": 3,
-            "img": "images/pictures/google-workspace.png",
+            "img": "images/pictures/go.png",
             "faIcon": "fa-brands fa-google",
             "faIconColors": {"bg": "", "fill": "#4285F4", "fillLight": "#6a9ef5"},
             "percentage": 100,
@@ -849,7 +849,7 @@
         },
         {
             "id": 4,
-            "img": "images/pictures/google-colab.png",
+            "img": "images/pictures/colab.png",
             "faIcon": "fa-solid fa-laptop-code",
             "faIconColors": {"bg": "", "fill": "#F4B400", "fillLight": "#ffd966"},
             "percentage": 80,
@@ -863,7 +863,7 @@
         },
         {
             "id": 5,
-            "img": "images/pictures/arduino.png",
+            "img": "images/pictures/ard.svg",
             "faIcon": "fa-solid fa-microchip",
             "faIconColors": {"bg": "", "fill": "#00979D", "fillLight": "#33b3b6"},
             "percentage": 60,
