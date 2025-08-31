@@ -1,0 +1,55 @@
+{
+    "name": "Aryan Nafis",
+
+    "profilePictureUrl": "images/pictures/sqq.png",
+    "resumePdfUrl": "",
+
+    "statusCircleVisible": true,
+    "statusCircleVariant": "available",
+    "statusCircleHoverMessage": "status_message_available_for_freelance",
+
+    "locales": {
+        "en": {
+            "localized_name": "Aryan Nafis",
+            "localized_name_stylized": " [[Aryan {{Nafis}}]]",
+            "status_message_available_for_freelance": "Sometimes you have to believe!",
+            "roles": [
+                "Mechanical Engineering Undergrad",
+                "ML Enthusiast",
+                "Research Enthusiast",
+                "Graphics Designer",
+                "Video Editor"
+            ],
+            "name_pronunciation_ipa": "/Aryan Nafis/",
+            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+        },
+        "es": {
+            "status_message_available_for_freelance": "Sometimes you have to believe!",
+            "roles": [
+                "Mechanical Engineering Undergrad",
+                "ML Enthusiast",
+                "Research Enthusiast",
+                "Graphics Designer",
+                "Video Editor"
+            ]
+        },
+        "fr": {
+            "status_message_available_for_freelance": "Sometimes you have to believe!",
+            "roles": [
+                "Mechanical Engineering Undergrad",
+                "ML Enthusiast",
+                "Research Enthusiast",
+                "Graphics Designer",
+                "Video Editor"
+            ]
+        },
+        "ko": {
+            "localized_name": "",
+            "localized_name_stylized": "",
+            "status_message_available_for_freelance": "",
+            "roles": [
+               
+            ]
+        }
+    }
+}
