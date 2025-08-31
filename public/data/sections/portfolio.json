@@ -157,7 +157,7 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "CADQues 2.0 Promo",
+                            "title": "CADQuest 2.0 Promo",
                             "text": "Promotional video for the CADQuest event, showcasing design and engineering challenges.",
                             "tags": ["Video", "Promo", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
                         }
@@ -197,8 +197,8 @@
                     },
                     "locales": {
                         "en": {
-                            "title": "Team Interplanetar Montage",
-                            "text": "A montage video showing the journey and achievements of team Interplanetar.",
+                            "title": "A day in Team Interplanetar",
+                            "text": "Peek into what's inside Team Interplanetar",
                             "tags": ["Video", "Montage", "Team", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
                         }
                     }
