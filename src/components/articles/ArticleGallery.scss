@@ -1,0 +1,91 @@
+@import "/src/styles/extend.scss";
+
+/* Container for all gallery items */
+div.article-gallery-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 16px; /* space between gallery items */
+    margin-top: 16px;
+
+    @include media-breakpoint-down(xl) {
+        gap: 14px;
+    }
+
+    @include media-breakpoint-down(lg) {
+        gap: 12px;
+    }
+
+    @include media-breakpoint-down(md) {
+        gap: 10px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        gap: 8px;
+    }
+}
+
+/* Each gallery item */
+div.article-gallery-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px; /* size of each certificate box */
+    margin-bottom: 16px;
+    transition: transform 0.2s ease;
+
+    &:hover {
+        transform: scale(1.05);
+    }
+
+    @include media-breakpoint-down(md) {
+        width: 150px;
+    }
+
+    @include media-breakpoint-down(sm) {
+        width: 120px;
+    }
+}
+
+/* Image wrapper to maintain aspect ratio */
+div.article-gallery-item-avatar-wrapper {
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%; /* 4:3 aspect ratio */
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    margin-bottom: 8px;
+
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: contain; /* show full certificate without cropping */
+    }
+}
+
+/* Content below each certificate (title/description) */
+div.article-gallery-item-content {
+    text-align: center;
+
+    h6.article-gallery-item-content-title {
+        font-weight: bold;
+        font-size: 1rem;
+        margin-bottom: 4px;
+        color: var(--theme-primary);
+    }
+
+    div.article-gallery-item-content-description {
+        font-size: 0.875rem;
+        color: var(--theme-texts-light);
+    }
+}
+
+/* Optional: link button (if you use CircularButton or Link) */
+div.article-gallery-item-link-button {
+    margin-bottom: 8px;
+}

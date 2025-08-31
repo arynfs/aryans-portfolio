@@ -1,0 +1,289 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Portfolio}}"
+            },
+            "es": {
+                "title_short": "Portafolio",
+                "title_short_nav": "Portafolio",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Portafolio}}"
+            },
+            "fr": {
+                "title_short": "Portfolio",
+                "title_short_nav": "Portfolio",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mon {{Portfolio}}"
+            },
+            "ko": {
+                "title_short": "포트폴리오",
+                "title_short_nav": "포트폴리오",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{포트폴리오}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_projects": "Projects",
+                    "category_cinematography": "Cinematography",
+                    "category_graphics": "Graphics"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_projects": "Proyectos",
+                    "category_cinematography": "Cinematografía",
+                    "category_graphics": "Gráficos"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_projects": "Projets",
+                    "category_cinematography": "Cinematographie",
+                    "category_graphics": "Graphismes"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_projects": "프로젝트",
+                    "category_cinematography": "촬영",
+                    "category_graphics": "그래픽"
+                }
+            },
+            "settings": {
+                "categorize_by": ["category_projects", "category_cinematography", "category_graphics"],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_projects",
+                    "img": "images/pictures/l.jpg",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/l.jpg"],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": "https://www.youtube.com/shorts/07yYj_vFFtw"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PID Based Line Following Robot Using ESP32",
+                            "text": "A line-following robot using PID control with ESP32 for precise path tracking.",
+                            "tags": ["ESP32", "PID", "Robotics", "Python", "Arduino"]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [""],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=OzdpFLNQd8c"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BAC Freshers Reception Promo",
+                            "text": "Promotional video for BAC Freshers Reception showcasing event highlights.",
+                            "tags": ["Video", "Promo", "Event"]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/harmony_of_motion_promo.jpg"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=H48cUuO6JQ8"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Harmony of Motion Promo",
+                            "text": "A cinematic promo video for Harmony of Motion.",
+                            "tags": ["Video", "Promo", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/bac_recruitment_promo.jpg"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=RUo6PpDmWwc"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BAC Recruitment Promo",
+                            "text": "Promotional video for student recruitment at BAC, highlighting activities and opportunities.",
+                            "tags": ["Video", "Promo", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/cadquest_promo.jpg"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=ew3BKJMo6q4"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CADQues 2.0 Promo",
+                            "text": "Promotional video for the CADQuest event, showcasing design and engineering challenges.",
+                            "tags": ["Video", "Promo", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": [""],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=S-hZdE2axmI&t=435s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "VPR for Anatolian Rover Challenge",
+                            "text": "Video project report for Anatolian Rover Challenge team Interplanetar.",
+                            "tags": ["Video", "VPR", "Competition", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/intp.png"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=rKkn6-Ynpz0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Team Interplanetar Montage",
+                            "text": "A montage video showing the journey and achievements of team Interplanetar.",
+                            "tags": ["Video", "Montage", "Team", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_cinematography",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/team_interplanetar_years.jpg"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=szdmrlVikNo&t=14s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Team Interplanetar Throughout the Years",
+                            "text": "A compilation video documenting the progress and highlights of team Interplanetar over the years.",
+                            "tags": ["Video", "Team", "Compilation", "Cinematography", "Adobe Premiere Pro", "Adobe After Effects"]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/nblogo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/nb1.jpg","images/pictures/nb2.jpg"],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nitroblaze Posters (BAC)",
+                            "text": "Promotional posters created for BAC's Nitroblaze event.",
+                            "tags": ["Graphics", "Poster", "Design", "Canva"]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/atlogo.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/atcover.jpg", "images/pictures/atreg.jpg"],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Autotalk Posters (BAC)",
+                            "text": "Promotional posters created for BAC's Autotalk event.",
+                            "tags": ["Graphics", "Poster", "Design", "Canva"]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "preview": {
+                        "links": [],
+                        "screenshots": ["images/pictures/1.png", "images/pictures/2.png", "images/pictures/3.png", "images/pictures/4.png"],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Interplanetar Newsletter Poster",
+                            "text": "A poster design created for the Interplanetar newsletter.",
+                            "tags": ["Graphics", "Poster", "Newsletter"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

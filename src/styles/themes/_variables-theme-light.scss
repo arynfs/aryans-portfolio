@@ -1,0 +1,73 @@
+@import "theme-variables-builder";
+
+// Core Colors
+$primary: #ff1f6a;         // Bold pink for accents
+$secondary: #625c5c;       // Black for secondary elements
+$dark: #e9ced3;            // Dark text/heading color
+$danger: #ff4c4c;           // Red for errors
+$muted: #d64066;            // Light pink for subtle elements
+
+// Backgrounds
+$base-bg: #ffffff;          // Main background
+$base-bg-light: #ffe6f0;    // Light pink for subtle contrast
+$base-bg-dark: #ffd6e6;     // Slightly darker pink for shading
+
+// Text Colors
+$texts: #000000;            // Black for readability
+$texts-inverted: #ae3535;   // White for dark backgrounds
+
+// Containers
+$base-container-bg: #fff0f5;         // Sidebar/main section
+$base-container-bg-accent: #ffe0eb;  // Accent background for nav inactive
+$base-popover-bg: #fff5f8;           // Popovers
+$base-boards: #ffe6f0;               // Cards/board containers
+$base-info-badges: #ff1f6a;          // Pink badges
+$empty: #fff5f8;                      // Empty fields
+
+// Borders & Scrollbar
+$borders: #ffccd9;                     // Default border
+$borders-nav-mobile: #ff1f6a;          // Mobile nav border
+$borders-nav-mobile-accent: #ff1f6a;   // Highlighted mobile nav
+$scrollbar-track: #ffe6f0;             // Scrollbar track
+$scrollbar-thumb: #ff1f6a;             // Scrollbar thumb
+
+[data-theme="light"] {
+    @include build-theme(
+        false,          // DARK MODE
+
+        $primary,
+        $secondary,
+        $dark,
+        $danger,
+        $muted,
+
+        $base-bg,
+        $base-bg-light,
+        $base-bg-dark,
+        $texts,
+        $texts-inverted,
+
+        $base-container-bg-accent,
+        $texts,
+        $borders-nav-mobile-accent,
+
+        $base-container-bg-accent,
+        $primary,
+
+        $primary,
+        $texts-inverted,
+        $borders-nav-mobile,
+
+        $base-container-bg,
+        $base-container-bg,
+        $base-popover-bg,
+        $base-boards,
+        $base-info-badges,
+        $texts,
+        $empty,
+
+        $borders,
+        $scrollbar-track,
+        $scrollbar-thumb,
+    );
+}

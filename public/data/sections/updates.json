@@ -1,0 +1,221 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Life recently",
+                "title_short_nav": "Updates",
+                "title_long_prefix": "Take a look at my",
+                "title_long": "Recent {{Updates}}"
+            },
+            "es": {
+                "title_short": "Vida Reciente",
+                "title_short_nav": "Actualizaciones",
+                "title_long_prefix": "Consulta mis",
+                "title_long": "Actualizaciones {{Recientes}}"
+            },
+            "fr": {
+                "title_short": "Vie Récente",
+                "title_short_nav": "Mises à Jour",
+                "title_long_prefix": "Découvrez mes",
+                "title_long": "Dernières {{Mises à Jour}}"
+            },
+            "ko": {
+                "title_short": "최근의 삶",
+                "title_short_nav": "업데이트",
+                "title_long_prefix": "내 최근",
+                "title_long": "{{업데이트}}를 확인해 보세요"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleFacts",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+
+                    {
+                    "id": 1,
+                    "img": null,
+                    "faIcon": "fa-solid fa-book",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinity",
+                            "text": "Exam Boycott"
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 2,
+                    "img": null,
+                    "faIcon": "fa-solid fa-globe",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Countries visited"
+                        },
+                        "es": {
+                            "text": "Países Visitados"
+                        },
+                        "fr": {
+                            "text": "Pays Visités"
+                        },
+                        "ko": {
+                            "text": "방문한 국가"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": null,
+                    "faIcon": "fa-solid fa-diagram-project",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "02",
+                            "text": "Projects"
+                        },
+                        "es": {
+                            "text": "Proyectos de Código Abierto"
+                        },
+                        "fr": {
+                            "text": "Projets Open-source"
+                        },
+                        "ko": {
+                            "text": "오픈 소스 프로젝트"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": null,
+                    "faIcon": "fa-solid fa-coffee",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "10,000",
+                            "text": "Coffees consumed"
+                        },
+                        "es": {
+                            "text": "Cafés Consumidos"
+                        },
+                        "fr": {
+                            "text": "Cafés Consommés"
+                        },
+                        "ko": {
+                            "text": "소비된 커피"
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": null,
+                    "faIcon": "fa-solid fa-laptop-code",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "9,000,0+",
+                            "text": "Lines of code"
+                        },
+                        "es": {
+                            "text": "Líneas de código"
+                        },
+                        "fr": {
+                            "text": "Lignes de code"
+                        },
+                        "ko": {
+                            "text": "코드 라인 수"
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": null,
+                    "faIcon": "fa-solid fa-heart",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "locales": {
+                        "en": {
+                            "title": "Infinite",
+                            "text": "Passion for learning"
+                        },
+                        "es": {
+                            "title": "Infinita",
+                            "text": "Pasión por Aprender"
+                        },
+                        "fr": {
+                            "title": "Infinie",
+                            "text": "Passion d'apprendre"
+                        },
+                        "ko": {
+                            "title": "무한대",
+                            "text": "배움에 대한 열정"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": 2,
+            "component": "ArticleThread",
+            "locales": {
+                "en": { "title": "Quick {{Facts}}" },
+                "es": { "title": "Feed de {{Noticias}}" },
+                "fr": { "title": "Fil d'{{Actualités}}" },
+                "ko": { "title": "{{뉴스}} 피드" }
+            },
+            "settings": {
+                "max_rows_collapse_threshold": 3,
+                "order_items_by": "dateStart",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                
+                {
+                    "id": 1,
+                    "date": {"year": 2025, "month": 6},
+                    "preview": {
+                        "links": [
+                            {"href": "https://github.com/arynfs", "tooltipString": "see_on_github", "faIcon": "fa-brands fa-github"}
+                        ],
+                        "screenshots": [],
+                        "screenshotsAspectRatio": "",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Launched my {{personal website!}}",
+                            "province": "California",
+                            "country": "US",
+                            "institution": "",
+                            "text": "I'm excited to launch my [[personal website]], where I share my mechanical engineering projects, lab experiments, robotics work, coding simulations, and insights into technology and student life.",
+                            "list": [
+                                "Portfolio showcasing my projects and contributions",
+                                "Blog with articles on technology, coding, and personal experiences",
+                                "Contact form for inquiries and collaborations",
+                                "Links to my social media profiles and GitHub"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

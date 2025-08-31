@@ -1,0 +1,963 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Skills",
+                "title_short_nav": "Skills",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Skill Set}}"
+            },
+            "es": {
+                "title_short": "Habilidades",
+                "title_short_nav": "Habilidades",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Habilidades}}"
+            },
+            "fr": {
+                "title_short": "Capacités",
+                "title_short_nav": "Capacités",
+                "title_long_prefix": "Explorez",
+                "title_long": "Mes {{Compétences}}"
+            },
+            "ko": {
+                "title_short": "스킬",
+                "title_short_nav": "스킬",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{스킬}}입니다"
+            }
+        }
+    },
+
+    "articles": [
+
+        
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {},
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "",
+                    "faIcon": "fa-solid fa-chart-line",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Research & Simulation}}",
+                            "text": "Conducting technical research, literature review, and performance simulation of engineering systems"
+                        },
+                        "es": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "",
+                    "faIcon": "fa-solid fa-sync-alt",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Thermodynamic Cycle Modeling}}",
+                            "text": "Analyzing and modeling cycles like ORC, VCC, and combined systems using Python, CoolProp, and Cantera."
+                        },
+                        "es": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "",
+                    "faIcon": "fa-solid fa-file",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{CAD Design}}",
+                            "text": "Creating and refining mechanical components and assemblies with SolidWorks and AutoCAD"
+                        },
+                        "es": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-solid fa-video",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Video Editing}}",
+                            "text": "Editing and producing videos using Adobe Premiere Pro and After Effects for technical and creative projects"
+                        },
+                        "es": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-solid fa-palette",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": ""},
+                    "locales": {
+                        "en": {
+                            "title": "{{Graphics Design}}",
+                            "text": "Crafting digital designs, illustrations, and visual content using Adobe Illustrator and Canva"
+                        },
+                        "es": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": ""
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+    "id": 5,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Engineering & CAD Tools"},
+        "es": {"title": ""},
+        "fr": {"title": ""},
+        "zh": {"title": ""}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "images/pictures/sw.png",
+            "faIcon": "fa-solid fa-cube",
+            "faIconColors": {"bg": "", "fill": "#FF6600", "fillLight": "#e65c00"},
+            "percentage": 95,
+            "locales": {
+                "en": {
+                    "title": "SolidWorks",
+                    "text": "Proficient in 3D modeling, mechanical assembly design, and creating technical drawings using SolidWorks.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "images/pictures/ansys.png",
+            "faIcon": "fa-solid fa-chart-line",
+            "faIconColors": {"bg": "", "fill": "#0066CC", "fillLight": "#005bb5"},
+            "percentage": 70,
+            "locales": {
+                "en": {
+                    "title": "ANSYS",
+                    "text": "Experienced in finite element analysis (FEA), computational simulations, and structural/thermal modeling using ANSYS.",
+                    "level": ""
+                }
+            }
+        }
+    ]
+},
+
+        {
+            "id": 2,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Programming and Scripting"},
+                "es": {"title": ""},
+                "fr": {"title": ""},
+                "zh": {"title": ""}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/pictures/c++.png",
+                    "class": "fa-brands fa-c++",
+                    "faIconColors": {"bg": "", "fill": "#339933"},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "C++",
+                            "text": "Proficient in C++ for object-oriented programming, data structures, and algorithm design. Experienced with classes, inheritance, templates, and STL for building efficient and modular software.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": "."
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/c.png",
+                    "faIcon": "fa-brands fa-c",
+                    "faIconColors": {"bg": "", "fill": "#0295c2", "fillLight": "#007396"},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "C",
+                            "text": "Solid understanding of C programming for system-level development, algorithm implementation, and embedded/low-level applications. Experienced with debugging, pointers, memory management, and structured programming.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Desarrollador de Java certificado por Oracle con un sólido entendimiento de su ecosistema."
+                        },
+                        "fr": {
+                            "text": "Développeur Java certifié Oracle avec une bonne compréhension de son écosystème."
+                        },
+                        "ko": {
+                            "text": "Oracle 인증 Java 개발자로 Java 생태계에 대한 강력한 이해."
+                        }
+                    }
+                },
+
+                {
+                    "id": 3,
+                    "img": "images/pictures/matlab.png",
+                    "faIcon": "fa-solid fa-matlab",
+                    "faIconColors": {"bg": "", "fill": "#4479A1"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Matlab",
+                            "text": "Proficient in MATLAB for numerical computation, data analysis, simulation, and modeling of engineering systems. Experienced with plotting, matrix operations, algorithm development, and control/thermodynamic system simulations.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Puedo gestionar y optimizar bases de datos MySQL para rendimiento y fiabilidad."
+                        },
+                        "fr": {
+                            "text": "Je peux gérer et optimiser les bases de données MySQL pour la performance et la fiabilité."
+                        },
+                        "ko": {
+                            "text": "성능과 안정성을 위해 MySQL 데이터베이스를 관리하고 최적화할 수 있습니다."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "img": "",
+                    "faIcon": "fa-brands fa-docker",
+                    "faIconColors": {"bg": "", "fill": "#2496ED"},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "Docker",
+                            "text": "Working knowledge of Docker for containerization.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Conocimientos prácticos de Docker para la contenedorización."
+                        },
+                        "fr": {
+                            "text": "Connaissance pratique de Docker pour la conteneurisation."
+                        },
+                        "ko": {
+                            "text": "컨테이너화를 위한 Docker에 대한 실무 지식."
+                        }
+                    }
+                },
+
+                {
+                    "id": 5,
+                    "img": "",
+                    "faIcon": "fa-brands fa-python",
+                    "faIconColors": {"bg": "", "fill": "#306998"},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "Python",
+                            "text": "Strong understanding of Python for scripting, automation, data analysis, and simulation, with hands-on work in libraries like NumPy, Matplotlip and Pandas",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+
+                                {
+                    "id": 6,
+                    "img": "",
+                    "faIcon": "fa-brands fa-css3-alt",
+                    "faIconColors": {"bg": "", "fill": "#1572B6"},
+                    "percentage": 65,
+                    "locales": {
+                        "en": {
+                            "title": "CSS 3",
+                            "text": "I can create responsive and visually appealing designs using CSS3.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                                {
+                    "id": 7,
+                    "img": "",
+                    "faIcon": "fa-brands fa-html5",
+                    "faIconColors": {"bg": "", "fill": "#E34F26"},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "HTML 5",
+                            "text": "I am proficient in HTML5 for building structured web pages.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Soy competente en HTML5 para construir páginas web estructuradas."
+                        },
+                        "fr": {
+                            "text": "Je suis compétent en HTML5 pour créer des pages web structurées."
+                        },
+                        "ko": {
+                            "text": "구조화된 웹 페이지를 구축하기 위해 HTML5에 능숙합니다."
+                        }
+                    }
+                },
+                                {
+                    "id": 8,
+                    "img": "",
+                    "faIcon": "fa-brands fa-js",
+                    "faIconColors": {"bg": "", "fill": "#F7DF1E", "fillLight": "#a69617"},
+                    "percentage": 85,
+                    "locales": {
+                        "en": {
+                            "title": "JavaScript ES6+",
+                            "text": "Mastered JavaScript ES6+ for dynamic and interactive web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Dominio de JavaScript ES6+ para aplicaciones web dinámicas e interactivas."
+                        },
+                        "fr": {
+                            "text": "Maîtrisé JavaScript ES6+ pour des applications web dynamiques et interactives."
+                        },
+                        "ko": {
+                            "text": "동적이고 대화형 웹 애플리케이션을 위한 JavaScript ES6+를 마스터했습니다."
+                        }
+                    }
+                },
+                                {
+                    "id": 9,
+                    "img": "",
+                    "faIcon": "fa-brands fa-react",
+                    "faIconColors": {"bg": "", "fill": "#61DAFB", "fillLight": "#317385"},
+                    "percentage": 60,
+                    "locales": {
+                        "en": {
+                            "title": "React",
+                            "text": "Good understanding of React for building modern web applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": "Comprensión completa de React para construir aplicaciones web modernas."
+                        },
+                        "fr": {
+                            "text": "Compréhension complète de React pour créer des applications web modernes."
+                        },
+                        "ko": {
+                            "text": "최신 웹 애플리케이션 구축을 위한 React에 대한 완전한 이해."
+                        }
+                    }
+                }
+
+            ]
+        },
+
+        {
+            "id": 3,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Data Analysis and Libraries"},
+                "es": {"title": ""},
+                "fr": {"title": ""},
+                "zh": {"title": ""}
+            },
+            "settings": {
+                "max_items_per_row": 3,
+                "max_rows_collapse_threshold": 6,
+                "order_items_by": "percentage",
+                "order_items_sort": "desc",
+                "round_icons": false
+            },
+            "items": [
+
+
+                {
+                    "id": 1,
+                    "img": "images/pictures/numpy.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 100,
+                    "locales": {
+                        "en": {
+                            "title": "Numpy",
+                            "text": "Proficient in numerical computing, array operations, and data manipulation using NumPy for Python-based engineering and scientific applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "img": "images/pictures/matplotlib.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 90,
+                    "locales": {
+                        "en": {
+                            "title": "Matplotlib",
+                            "text": "Skilled in creating data visualizations, plots, and charts using Matplotlib to analyze and present engineering and scientific data effectively.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "img": "images/pictures/cool.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 95,
+                    "locales": {
+                        "en": {
+                            "title": "CoolProp",
+                            "text": "Experienced in using CoolProp for accurate thermophysical property calculations in thermodynamic and energy system simulations.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+
+                {
+                    "id": 4,
+                    "img": "images/pictures/cantera.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Cantera",
+                            "text": "Skilled in Cantera for simulating combustion, chemical kinetics, and reactive flow processes in engineering applications.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "img": "images/pictures/pandas.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 80,
+                    "locales": {
+                        "en": {
+                            "title": "Pandas",
+                            "text": "Proficient in data manipulation, cleaning, and analysis using Pandas for structured datasets in Python.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "img": "images/pictures/sci.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Scikit-learn",
+                            "text": "Proficient in Scikit-learn for machine learning tasks, including regression, classification, clustering, and model evaluation.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "img": "images/pictures/tens.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "TensorFlow",
+                            "text": "Experienced in TensorFlow for building, training, and deploying deep learning models for predictive and optimization tasks.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "img": "images/pictures/sci.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Seaborn",
+                            "text": "Skilled in creating advanced statistical data visualizations and plots using Seaborn for exploratory data analysis.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "img": "images/pictures/keras.png",
+                    "faIcon": "fa-brands fa-numpy",
+                    "faIconColors": {"bg": "", "fill": "#4FC08D", "fillLight": "#2b825b"},
+                    "percentage": 70,
+                    "locales": {
+                        "en": {
+                            "title": "Seaborn",
+                            "text": "Experienced in Keras for designing, building, and training neural network models efficiently in Python.",
+                            "level": ""
+                        },
+                        "es": {
+                            "text": ""
+                        },
+                        "fr": {
+                            "text": ""
+                        },
+                        "ko": {
+                            "text": ""
+                        }
+                    }
+                }
+
+            ]
+        },
+
+        {
+    "id": 4,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Creative & Multimedia Tools"},
+        "es": {"title": ""},
+        "fr": {"title": ""},
+        "zh": {"title": ""}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "images/pictures/au.png",
+            "faIcon": "fa-solid fa-microphone",
+            "faIconColors": {"bg": "", "fill": "#FF6F61", "fillLight": "#e65550"},
+            "percentage": 85,
+            "locales": {
+                "en": {
+                    "title": "Audacity",
+                    "text": "Proficient in audio recording and editing, noise reduction, and sound mixing for podcasts, videos, and multimedia projects.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "images/pictures/ae.png",
+            "faIcon": "fa-brands fa-adobe",
+            "faIconColors": {"bg": "", "fill": "#FF0000", "fillLight": "#cc0000"},
+            "percentage": 80,
+            "locales": {
+                "en": {
+                    "title": "Adobe After Effects",
+                    "text": "Skilled in creating motion graphics, visual effects, and animated sequences for professional-quality videos.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 3,
+            "img": "images/pictures/pr.png",
+            "faIcon": "fa-brands fa-adobe",
+            "faIconColors": {"bg": "", "fill": "#FF0000", "fillLight": "#cc0000"},
+            "percentage": 90,
+            "locales": {
+                "en": {
+                    "title": "Adobe Premiere Pro",
+                    "text": "Experienced in video editing, color correction, transitions, and producing polished video content for various media platforms.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 4,
+            "img": "images/pictures/ai.png",
+            "faIcon": "fa-brands fa-adobe",
+            "faIconColors": {"bg": "", "fill": "#FF9900", "fillLight": "#e68a00"},
+            "percentage": 85,
+            "locales": {
+                "en": {
+                    "title": "Adobe Illustrator",
+                    "text": "Proficient in vector graphics, digital illustration, and logo/branding design using Illustrator.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 5,
+            "img": "images/pictures/ps.png",
+            "faIcon": "fa-brands fa-adobe",
+            "faIconColors": {"bg": "", "fill": "#0099FF", "fillLight": "#007acc"},
+            "percentage": 90,
+            "locales": {
+                "en": {
+                    "title": "Adobe Photoshop",
+                    "text": "Skilled in photo editing, compositing, and creative image enhancement for digital media and marketing materials.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 6,
+            "img": "images/pictures/can.png",
+            "faIcon": "fa-brands fa-canva",
+            "faIconColors": {"bg": "", "fill": "#00C4CC", "fillLight": "#00a3a6"},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "Canva",
+                    "text": "Experienced in designing graphics, social media posts, and presentation materials with professional visual appeal.",
+                    "level": ""
+                }
+            }
+        }
+    ]
+},
+
+{
+    "id": 5,
+    "component": "ArticleSkills",
+    "locales": {
+        "en": {"title": "Other Tools & Software"},
+        "es": {"title": ""},
+        "fr": {"title": ""},
+        "zh": {"title": ""}
+    },
+    "settings": {
+        "max_items_per_row": 3,
+        "max_rows_collapse_threshold": 6,
+        "order_items_by": "percentage",
+        "order_items_sort": "desc",
+        "round_icons": false
+    },
+    "items": [
+        {
+            "id": 1,
+            "img": "images/pictures/latex.png",
+            "faIcon": "fa-solid fa-code",
+            "faIconColors": {"bg": "", "fill": "#008080", "fillLight": "#00a3a3"},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "LaTeX",
+                    "text": "Expert in LaTeX for academic writing, research papers, and technical documentation.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 2,
+            "img": "images/pictures/ms-office.png",
+            "faIcon": "fa-solid fa-file-word",
+            "faIconColors": {"bg": "", "fill": "#2B579A", "fillLight": "#4a6fb4"},
+            "percentage": 95,
+            "locales": {
+                "en": {
+                    "title": "MS Office Suite",
+                    "text": "Advanced in Word, Excel, and PowerPoint for professional documentation, data analysis, and presentations.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 3,
+            "img": "images/pictures/google-workspace.png",
+            "faIcon": "fa-brands fa-google",
+            "faIconColors": {"bg": "", "fill": "#4285F4", "fillLight": "#6a9ef5"},
+            "percentage": 100,
+            "locales": {
+                "en": {
+                    "title": "Google Workspace",
+                    "text": "Proficient in Docs, Sheets, Slides, and Drive for collaborative and cloud-based workflows.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 4,
+            "img": "images/pictures/google-colab.png",
+            "faIcon": "fa-solid fa-laptop-code",
+            "faIconColors": {"bg": "", "fill": "#F4B400", "fillLight": "#ffd966"},
+            "percentage": 80,
+            "locales": {
+                "en": {
+                    "title": "Google Colab",
+                    "text": "Experienced in using Colab for Python coding, data analysis, and machine learning notebooks.",
+                    "level": ""
+                }
+            }
+        },
+        {
+            "id": 5,
+            "img": "images/pictures/arduino.png",
+            "faIcon": "fa-solid fa-microchip",
+            "faIconColors": {"bg": "", "fill": "#00979D", "fillLight": "#33b3b6"},
+            "percentage": 60,
+            "locales": {
+                "en": {
+                    "title": "Arduino & Robotics",
+                    "text": "Hands-on experience with Arduino, ESP32, and robotics concepts like PID control and PWM for automation projects.",
+                    "level": ""
+                }
+            }
+        }
+    ]
+},
+
+
+        {
+            "id": 6,
+            "component": "ArticleSkills",
+            "locales": {
+                "en": {"title": "Languages"},
+                "es": {"title": "Idiomas"},
+                "fr": {"title": "Langues"},
+                "zh": {"title": "语言"}
+            },
+            "settings": {
+                "max_items_per_row": 1,
+                "max_rows_collapse_threshold": 4,
+                "order_items_by": "id",
+                "order_items_sort": "asc",
+                "round_icons": true
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Excellent communication and writing skills.",
+                            "level": "Fluent"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "",
+                            "level": "N"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": ".",
+                            "level": "N"
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "text": "",
+                            "level": "F"
+                        }
+                    }
+                },
+                                {
+                    "id": 1,
+                    "img": "images/pictures/ban.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "Bangla",
+                            "text": "Native speaker with excellent communication and writing skills.",
+                            "level": "Fluent"
+                        },
+                        "es": {
+                            "title": "",
+                            "text": "",
+                            "level": "N"
+                        },
+                        "fr": {
+                            "title": "",
+                            "text": ".",
+                            "level": ""
+                        },
+                        "ko": {
+                            "title": "",
+                            "text": "",
+                            "level": ""
+                        }
+                    }
+                }
+
+            ]
+        }
+    ]
+}

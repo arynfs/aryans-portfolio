@@ -1,0 +1,121 @@
+@import "/src/styles/extend.scss";
+
+$column-breakpoint: xl;
+
+div.article-text-items {
+    --row-gap: 25px;
+    --avatar-width: 360px;   // increased width
+    --avatar-height: 220px;  // proportional height
+    --spacing: 40px;
+
+    @include media-breakpoint-down(xxl) {
+        --avatar-width: 330px;
+        --avatar-height: 200px;
+    }
+    @include media-breakpoint-down(xl) {
+        --avatar-width: 280px;
+        --avatar-height: 170px;
+    }
+    @include media-breakpoint-down(lg) {
+        --avatar-width: 240px;
+        --avatar-height: 145px;
+    }
+    @include media-breakpoint-down(md) {
+        --avatar-width: 200px;
+        --avatar-height: 120px;
+    }
+    @include media-breakpoint-down(sm) {
+        --avatar-width: 160px;
+        --avatar-height: 100px;
+    }
+
+    display: flex;
+    flex-direction: column;
+}
+
+div.article-text-item {
+    display: flex;
+    align-items: center;
+    margin-top: calc(var(--row-gap)/2);
+
+    @include media-breakpoint-up($column-breakpoint) {
+        margin-bottom: calc(var(--row-gap)/2);
+    }
+
+    &:not(:last-child) {
+        margin-bottom: calc(var(--row-gap)/2);
+    }
+
+    @include media-breakpoint-down($column-breakpoint) {
+        flex-direction: column;
+        &:not(:last-child) {
+            margin-bottom: 30px;
+        }
+    }
+}
+
+div.article-text-avatar-view-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: var(--avatar-width);
+    height: var(--avatar-height);
+    min-width: var(--avatar-width);
+    min-height: var(--avatar-height);
+
+    margin-left: calc(var(--spacing)/4);
+    margin-right: var(--spacing);
+
+    overflow: hidden;
+    border-radius: 10px; // slightly bigger corners for larger cards
+
+    @include media-breakpoint-down($column-breakpoint) {
+        margin-left: 5px;
+        margin-right: 0;
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain; // keeps certificate aspect ratio
+    }
+}
+
+div.article-text-avatar-view {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    font-size: calc(var(--avatar-width) / 10);
+
+    @include media-breakpoint-down($column-breakpoint) {
+        margin-bottom: calc(var(--spacing)/2);
+    }
+}
+
+div.article-text-excerpt {
+    direction: ltr;
+    width: 100%;
+    color: var(--theme-texts-light);
+    margin-bottom: 8px;
+
+    @include media-breakpoint-down(xxl) {
+        margin-bottom: 2px;
+    }
+
+    @include media-breakpoint-down($column-breakpoint) {
+        margin: 10px 0 0;
+    }
+}
+
+div.article-text-item-reverse {
+    direction: rtl;
+
+    div.article-text-avatar-view {
+        margin-left: 10px;
+    }
+
+    div.article-text-excerpt {
+        margin-left: 10px;
+    }
+}
