@@ -41,7 +41,7 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Dhaka – Bangladeshhhhhhhhhhhhhhh",
+                    "label": "Dhaka – Bangladesh",
                     "link": {"href": "", "tooltipString": ""},
                     "faIcon": "pi pi-map-marker"
                 },
@@ -110,7 +110,7 @@
             },
             "items": [
                 {
-                    "id": 1,
+                    "id": 2,
                     "faIcon": "fa-solid fa-video",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -135,7 +135,7 @@
                     }
                 },
                 {
-                    "id": 2,
+                    "id": 3,
                     "faIcon": "fa-solid fa-palette",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -160,7 +160,7 @@
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 4,
                     "faIcon": "fa-solid fa-film",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -185,7 +185,7 @@
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 5,
                     "faIcon": "fa-solid fa-book",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -210,7 +210,7 @@
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 6,
                     "img": "",
                     "faIcon": "fa-solid fa-camera-retro",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -236,7 +236,7 @@
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 1,
                     "faIcon": "fa-solid fa-gamepad",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
