@@ -54,30 +54,6 @@
                             "text": "<ul><li>{{GPA 5.00 / 5.00}}</li><li>{{Talentpool Scholarship}} from Board of Education, Dhaka</li></ul>",
                             "list": [],
                             "tags": []
-                        },
-                        "es": {
-                            "title": "Desarrollo en PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "Remoto",
-                            "institution": "Udacity",
-                            "text": "Completé con éxito un programa intensivo de Nanodegree con un fuerte enfoque en [[PHP development]], donde adquirí una experiencia práctica y completa en la creación de aplicaciones web dinámicas y escalables.",
-                            "list": []
-                        },
-                        "fr": {
-                            "title": "Développement PHP {{Nanodegree}}",
-                            "province": "",
-                            "country": "À distance",
-                            "institution": "Udacity",
-                            "text": "J'ai terminé avec succès un programme Nanodegree intensif axé sur [[PHP development]], au cours duquel j'ai acquis une expérience pratique approfondie dans la création d'applications web dynamiques et évolutives.",
-                            "list": []
-                        },
-                        "ko": {
-                            "title": "PHP 개발 {{Nanodegree}}",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Udacity",
-                            "text": "[[PHP development]]에 중점을 둔 집중형 나노디그리 프로그램을 성공적으로 수료했으며, 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 있어 폭넓고 실용적인 경험을 쌓았습니다.",
-                            "list": []
                         }
                     }
                 },

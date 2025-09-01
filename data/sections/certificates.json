@@ -46,7 +46,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>Kaggle - Introduction to Machine Learning</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>Kaggle</div><div style='font-size:1.6rem;'>Introduction to Machine Learning - <a href='https://www.kaggle.com/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -55,7 +57,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>Kaggle - Pandas</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>Kaggle</div><div style='font-size:1.6rem;'>Pandas - <a href='https://www.kaggle.com/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -64,7 +68,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>DeepLearning.AI - Advanced Learning Algorithm</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>DeepLearning.AI</div><div style='font-size:1.6rem;'>Advanced Learning Algorithm - <a href='https://deeplearning.ai/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -73,7 +79,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>DeepLearning.AI - Supervised Learning</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>DeepLearning.AI</div><div style='font-size:1.6rem;'>Supervised Machine Learning: Regression and Classification - <a href='https://deeplearning.ai/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -82,7 +90,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>DeepLearning.AI - Unsupervised Learning</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>DeepLearning.AI</div><div style='font-size:1.6rem;'>Unsupervised Learning, Recommenders, Reinforcement Learning - <a href='https://deeplearning.ai/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -91,7 +101,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>CSWA - Dassault Systemes</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>Dassault Systemes</div><div style='font-size:1.6rem;'>CSWA - <a href='https://solidworks.com/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -100,7 +112,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>MATLAB Onramp</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>MathWorks</div><div style='font-size:1.6rem;'>MATLAB Onramp - <a href='https://matlab.com/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -109,7 +123,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>MATLAB Machine Learning Onramp</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>MathWorks</div><div style='font-size:1.6rem;'>Machine Learning Onramp - <a href='https://matlab.com/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         },
         {
@@ -118,7 +134,9 @@
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "locales": {
-            "en": { "text": "<span style='font-size:1.3rem;'>DeepLearning.AI - Machine Learning Specialization</span>" }
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>DeepLearning.AI</div><div style='font-size:1.6rem;'>Machine Learning Specialization - <a href='https://deeplearning.ai/' style='color:#ff8ed9; font-weight:bold;'>Credential</a></div>"
+            }
           }
         }
       ]

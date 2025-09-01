@@ -282,7 +282,48 @@
                             "tags": ["Graphics", "Poster", "Newsletter"]
                         }
                     }
-                }
+                },
+                {
+    "id": 12,
+    "categoryId": "category_graphics",
+    "img": "images/pictures/mc.png",
+    "faIcon": "",
+    "faIconColors": {"bg": "", "fill": ""},
+    "preview": {
+        "links": [],
+        "screenshots": ["images/pictures/mechronicles-teaser-1.png", "images/pictures/mechronicles-teaser-2.png"],
+        "screenshotsAspectRatio": "16:9",
+        "youtubeVideo": "https://www.youtube.com/watch?v=GyWGTax1Ubs"
+    },
+    "locales": {
+        "en": {
+            "title": "Mechronicles Teaser",
+            "text": "A Dark-inspired teaser video for the Mechronicles event, intricately edited to bring a fresh, immersive visual experience.",
+            "tags": ["Video", "Teaser", "Dark Theme", "Adobe PP", "After Effects"]
+        }
+    }
+},
+{
+    "id": 13,
+    "categoryId": "category_graphics",
+    "img": "images/pictures/mc.png",
+    "faIcon": "",
+    "faIconColors": {"bg": "", "fill": ""},
+    "preview": {
+        "links": [],
+        "screenshots": ["images/pictures/mechronicles-promo-1.png", "mc.png", "images/pictures/mechronicles-promo-3.png"],
+        "screenshotsAspectRatio": "16:9",
+        "youtubeVideo": "https://www.youtube.com/watch?v=ujLBCDX3ioA"
+    },
+    "locales": {
+        "en": {
+            "title": "Mechronicles Official Promo",
+            "text": "An official promotional video for Mechronicles, creatively edited with intricate visuals and a Dark-inspired theme to captivate the audience.",
+            "tags": ["Video", "Promotion", "Dark Theme", "Adobe PP", "After Effects"]
+        }
+    }
+}
+
             ]
         }
     ]

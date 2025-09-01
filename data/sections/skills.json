@@ -896,36 +896,6 @@
                 "round_icons": true
             },
             "items": [
-                {
-                    "id": 1,
-                    "img": "images/flags/en-us.png",
-                    "faIcon": "",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "date": {"year": null, "month": null},
-                    "percentage": null,
-                    "locales": {
-                        "en": {
-                            "title": "English",
-                            "text": "Excellent communication and writing skills.",
-                            "level": "Fluent"
-                        },
-                        "es": {
-                            "title": "Inglés",
-                            "text": "",
-                            "level": "N"
-                        },
-                        "fr": {
-                            "title": "Anglais",
-                            "text": ".",
-                            "level": "N"
-                        },
-                        "ko": {
-                            "title": "영어",
-                            "text": "",
-                            "level": "F"
-                        }
-                    }
-                },
                                 {
                     "id": 1,
                     "img": "images/pictures/ban.png",
@@ -955,7 +925,38 @@
                             "level": ""
                         }
                     }
+                },
+                {
+                    "id": 1,
+                    "img": "images/flags/en-us.png",
+                    "faIcon": "",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "percentage": null,
+                    "locales": {
+                        "en": {
+                            "title": "English",
+                            "text": "Excellent communication and writing skills.",
+                            "level": "Fluent"
+                        },
+                        "es": {
+                            "title": "Inglés",
+                            "text": "",
+                            "level": "N"
+                        },
+                        "fr": {
+                            "title": "Anglais",
+                            "text": ".",
+                            "level": "N"
+                        },
+                        "ko": {
+                            "title": "영어",
+                            "text": "",
+                            "level": "F"
+                        }
+                    }
                 }
+                
 
             ]
         }

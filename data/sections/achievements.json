@@ -6,12 +6,6 @@
                 "title_short_nav": "Achievements",
                 "title_long_prefix": " ",
                 "title_long": "Working on it"
-            },
-            "es": {
-                "title_short": "Logros",
-                "title_short_nav": "Logros",
-                "title_long_prefix": "Aquí están mis",
-                "title_long": "{{Logros}} Profesionales"
             }
         }
     }
