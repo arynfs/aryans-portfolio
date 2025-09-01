@@ -285,7 +285,7 @@
                 },
                 {
     "id": 12,
-    "categoryId": "category_graphics",
+    "categoryId": "category_cinematography",
     "img": "images/pictures/mc.png",
     "faIcon": "",
     "faIconColors": {"bg": "", "fill": ""},
@@ -305,7 +305,7 @@
 },
 {
     "id": 13,
-    "categoryId": "category_graphics",
+    "categoryId": "category_cinematography",
     "img": "images/pictures/mc.png",
     "faIcon": "",
     "faIconColors": {"bg": "", "fill": ""},
