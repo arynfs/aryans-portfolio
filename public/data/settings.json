@@ -97,15 +97,15 @@
             {
                 "description": "Clone it and customize it for your own portfolio:",
                 "list": [
-                    "https://github.com/ryanbalieiro/react-portfolio-template"
+                    "https://github.com/arynfs/aryans-portfolio"
                 ],
                 "listStyle": "none"
             },
             {
                 "description": "Developer Info:",
                 "list": [
-                    "GitHub: https://github.com/ryanbalieiro",
-                    "Website: https://ryanbalieiro.com"
+                    "GitHub: https://github.com/arynfs",
+                    "Website: https://arynfs.github.io/aryans-portfolio/"
                 ],
                 "listStyle": "bulleted"
             }
