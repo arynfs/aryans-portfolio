@@ -41,7 +41,7 @@
             "items": [
                 {
                     "id": 1,
-                    "label": "Dhaka – Bangladeshhhhhh",
+                    "label": "Dhaka – Bangladesh",
                     "link": {"href": "", "tooltipString": ""},
                     "faIcon": "pi pi-map-marker"
                 },
