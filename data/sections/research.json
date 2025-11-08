@@ -1,0 +1,183 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Research",
+                "title_short_nav": "My Research",
+                "title_long_prefix": "Explore",
+                "title_long": "My {{Research Work}}"
+            },
+            "es": {
+                "title_short": "Investigación",
+                "title_short_nav": "Mi Investigación",
+                "title_long_prefix": "Explora",
+                "title_long": "Mi {{Trabajo de Investigación}}"
+            },
+            "fr": {
+                "title_short": "Recherche",
+                "title_short_nav": "Ma Recherche",
+                "title_long_prefix": "Explorer",
+                "title_long": "Mon {{Travail de Recherche}}"
+            },
+            "ko": {
+                "title_short": "연구",
+                "title_short_nav": "내 연구",
+                "title_long_prefix": "탐색",
+                "title_long": "내 {{연구 작업}}"
+            }
+        }
+    },
+
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticleCards",
+            "locales": {
+                "en": {"title": "My Research Field"},
+                "es": {"title": "Mi Campo de Investigación"},
+                "fr": {"title": "Mon Domaine de Recherche"},
+                "ko": {"title": "내 연구 분야"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": "thermodynamic_systems"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Thermodynamic Systems}}",
+                            "text": "Studying energy conversion, heat transfer, and thermodynamic cycles including ORC, VCC, and combined systems using Python and CoolProp"
+                        },
+                        "es": {
+                            "title": "{{Sistemas Termodinámicos}}",
+                            "text": "Estudiando conversión de energía, transferencia de calor y ciclos termodinámicos"
+                        },
+                        "fr": {
+                            "title": "{{Systèmes Thermodynamiques}}",
+                            "text": "Étude de la conversion d'énergie, du transfert de chaleur et des cycles thermodynamiques"
+                        },
+                        "ko": {
+                            "title": "{{열역학 시스템}}",
+                            "text": "에너지 변환, 열 전달 및 열역학 사이클 연구"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": "computational_fluid_dynamics"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Computational Fluid Dynamics}}",
+                            "text": "Analyzing fluid flow, heat transfer, and aerodynamics using numerical simulation methods and CFD software"
+                        },
+                        "es": {
+                            "title": "{{Dinámica de Fluidos Computacional}}",
+                            "text": "Analizando flujo de fluidos, transferencia de calor y aerodinámica"
+                        },
+                        "fr": {
+                            "title": "{{Dynamique des Fluides Numérique}}",
+                            "text": "Analyse de l'écoulement des fluides, du transfert de chaleur et de l'aérodynamique"
+                        },
+                        "ko": {
+                            "title": "{{전산 유체 역학}}",
+                            "text": "유체 흐름, 열 전달 및 공기역학 분석"
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    
+                    "faIcon": "fa-solid fa-atom",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": "molecular_dynamics"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Molecular Dynamics}}",
+                            "text": "Simulating atomic and molecular interactions to understand material properties and behavior at the nanoscale"
+                        },
+                        "es": {
+                            "title": "{{Dinámica Molecular}}",
+                            "text": "Simulando interacciones atómicas y moleculares"
+                        },
+                        "fr": {
+                            "title": "{{Dynamique Moléculaire}}",
+                            "text": "Simulation des interactions atomiques et moléculaires"
+                        },
+                        "ko": {
+                            "title": "{{분자 동역학}}",
+                            "text": "원자 및 분자 상호작용 시뮬레이션"
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "date": {"year": null, "month": null},
+                    "link": {"href": "", "tooltipString": "machine_learning"},
+                    "locales": {
+                        "en": {
+                            "title": "{{Machine Learning}}",
+                            "text": "Applying ML algorithms and data-driven approaches to optimize engineering systems and predict performance"
+                        },
+                        "es": {
+                            "title": "{{Aprendizaje Automático}}",
+                            "text": "Aplicando algoritmos de ML para optimizar sistemas de ingeniería"
+                        },
+                        "fr": {
+                            "title": "{{Apprentissage Automatique}}",
+                            "text": "Application d'algorithmes ML pour optimiser les systèmes d'ingénierie"
+                        },
+                        "ko": {
+                            "title": "{{기계 학습}}",
+                            "text": "엔지니어링 시스템 최적화를 위한 ML 알고리즘 적용"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+  "id": 2,
+  "component": "ArticlePublication",
+  "locales": {
+    "en": {"title": "Publications"}
+  },
+  "settings": {
+    "order_items_by": "id",
+    "order_items_sort": "desc"
+  },
+  "items": [
+    {
+      "id": 1,
+      "faIcon": "fa-solid fa-file-alt",
+      "faIconColors": {"bg": "", "fill": ""},
+      "link": {"href": "https://doi.org/example1", "tooltipString": "View Publication"},
+      "locales": {
+        "en": {
+          "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
+          
+        },
+        "author": "Aryan Nafis",
+          "journal": "International Journal of Mechanical Engineering, 2025",
+          "badge": "Accepted"
+      }
+    }
+  ]
+}
+
+    ]
+}

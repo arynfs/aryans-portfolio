@@ -19,10 +19,10 @@
             "faIcon": "fa-solid fa-tools"
         },
         {
-            "id": "Extra-Curricular",
-            "categoryId": "background",
-            "jsonPath": "/data/sections/experience.json",
-            "faIcon": "fa-solid fa-briefcase"
+            "id": "Research",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/research.json",
+            "faIcon": "fa-solid fa-magnifying-glass"
         },
         {
             "id": "portfolio",
@@ -41,6 +41,12 @@
             "categoryId": "showcase",
             "jsonPath": "/data/sections/achievements.json",
             "faIcon": "fa-solid fa-award"
+        },
+        {
+            "id": "Extra-Curricular",
+            "categoryId": "background",
+            "jsonPath": "/data/sections/experience.json",
+            "faIcon": "fa-solid fa-briefcase"
         },
         {
             "id": "updates",
