@@ -7,6 +7,8 @@ import ArticleFacts from "/src/components/articles/ArticleFacts.jsx"
 import ArticleInfoList from "/src/components/articles/ArticleInfoList.jsx"
 import ArticleInlineList from "/src/components/articles/ArticleInlineList.jsx"
 import ArticleNotFound from "/src/components/articles/ArticleNotFound.jsx"
+import ArticleResearch from "/src/components/articles/ArticleResearch.jsx"
+import ArticlePublication from "/src/components/articles/ArticlePublication.jsx"
 import ArticlePortfolio from "/src/components/articles/ArticlePortfolio.jsx"
 import ArticleStack from "/src/components/articles/ArticleStack.jsx"
 import ArticleSkills from "/src/components/articles/ArticleSkills.jsx"
@@ -47,7 +49,9 @@ SectionBody.ARTICLES = {
     ArticleText,
     ArticleThread,
     ArticleTimeline,
-    ArticleGallery
+    ArticleGallery,
+    ArticlePublication,
+    ArticleResearch
 }
 
 export default SectionBody

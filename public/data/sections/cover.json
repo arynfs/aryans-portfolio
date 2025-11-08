@@ -6,24 +6,6 @@
                 "title_short_nav": "About me",
                 "title_long_prefix": "Hello",
                 "title_long": "I'm {{Aryan Nafis!}}"
-            },
-            "es": {
-                "title_short": "",
-                "title_short_nav": "S",
-                "title_long_prefix": "Hola...",
-                "title_long": "S}}"
-            },
-            "fr": {
-                "title_short": "S",
-                "title_short_nav": "",
-                "title_long_prefix": "Salut...",
-                "title_long": "Je }}"
-            },
-            "ko": {
-                "title_short": "환!",
-                "title_short_nav": "",
-                "title_long_prefix": "...",
-                "title_long": "저!"
             }
         }
     },
@@ -48,7 +30,7 @@
                 {
                     "id": 2,
                     "label": "aryannafis07@gmail.com",
-                    "link": {"href": "mailto:aryannafis07@gmail.com.com", "tooltipString": "email_me"},
+                    "link": {"href": "mailto:aryannafis07@gmail.com", "tooltipString": "email_me"},
                     "faIcon": "fa-regular fa-envelope"
                 },
                 {
@@ -60,7 +42,7 @@
                 {
                     "id": 4,
                     "label": "Linkedin",
-                    "link": {"href": "https://www.linkedin.com/in/arynfs/", "tooltipString": "see_on_github"},
+                    "link": {"href": "https://www.linkedin.com/in/arynfs/", "tooltipString": "see_on_linkedin"},
                     "faIcon": "fa-brands fa-linkedin"
                 }
             ]
@@ -70,10 +52,7 @@
             "id": 2,
             "component": "ArticleText",
             "locales": {
-                "en": {"title": "{{About Me}}"},
-                "es": {"title": "{{Un poco}} sobre mí..."},
-                "fr": {"title": "{{Un peu}} à propos de moi..."},
-                "ko": {"title": "저에 {{대해 조금}}..."}
+                "en": {"title": "{{About Me}}"}
             },
             "settings": {
                 "order_items_by": "id",
@@ -87,13 +66,78 @@
                     "faIconColors": {"bg": "", "fill": ""},
                     "locales": {
                         "en": {
-                            "text": "<p>My early years were shaped by frequent relocations due to my father’s government service. This journey allowed me to study in multiple schools across different regions, enriching my perspective and adaptability.</p><p>After completing my college education at Notre Dame College, I earned a place at BUET, where I am currently pursuing my undergraduate studies in Mechanical Engineering. My passion for engineering and innovation has led me to become actively involved in the BUET Automobile Club, AutoMaestro, and Team Interplanetar, the university’s Mars Rover team. I am also a member of the ASHRAE Student Branch at BUET, which connects me to the global HVAC&R community and provides opportunities to expand my technical expertise.</p><p>Currently, I am in Level 2, Term 1 of my undergraduate studies at BUET. Alongside my academic coursework, I am engaged in projects with Team Interplanetar, BUET Automobile Club, and AutoMaestro, where I continue to enhance my technical skills while collaborating in dynamic team environments. Beyond academics, I have a strong interest in cinematography and photography, which add a creative dimension to my work. I also actively participate in various extracurricular activities at my university, further strengthening my leadership and teamwork abilities.</p>"
+                            "text": "<p>My early years were shaped by frequent relocations due to my father's government service. This journey allowed me to study in multiple schools across different regions, enriching my perspective and adaptability.</p><p>After completing my college education at Notre Dame College, I earned a place at BUET, where I am currently pursuing my undergraduate studies. My passion for engineering and innovation has led me to become actively involved in BUET Automobile Club and Team Interplanetar, the university's Mars Rover team. These experiences have not only honed my technical skills but also strengthened my ability to collaborate and lead in dynamic team environments.</p><p>Currently, I am in Level 2, Term 1 of my undergraduate studies at BUET. Alongside my academic coursework, I am actively involved in BUET's Mars Rover project as a member of Team Interplanetar. I am also a part of the BUET Automobile Club, where I engage in projects that align with my passion for engineering and innovation. Beyond academics, I have a strong interest in cinematography and photography, which add a creative dimension to my work. Additionally, I actively participate in various extracurricular activities at my university, further developing my leadership and teamwork skills.</p>"
+                        }
                     }
-                }
                 }
             ]
         },
 
+        {
+            "id": 3,
+            "component": "ArticleInfoList",
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "locales": {
+                "en": {"title": "Research {{Interests}}"}
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-fire",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Thermodynamic}} Systems",
+                            "text": "Studying energy conversion, heat transfer, and thermodynamic cycles including ORC, VCC, and combined systems using Python and CoolProp."
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-wind",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Computational}} Fluid Dynamics",
+                            "text": "Analyzing fluid flow, heat transfer, and aerodynamics using numerical simulation methods and CFD software."
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "faIcon": "fa-solid fa-atom",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Molecular}} Dynamics",
+                            "text": "Simulating atomic and molecular interactions to understand material properties and behavior at the nanoscale."
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "faIcon": "fa-solid fa-brain",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "{{Machine}} Learning",
+                            "text": "Applying ML algorithms and data-driven approaches to optimize engineering systems and predict performance."
+                        }
+                    }
+                }
+            ]
+        },
 
         {
             "id": 4,
@@ -103,39 +147,11 @@
                 "order_items_sort": "asc"
             },
             "locales": {
-                "en": {"title": "Personal {{interests}}"},
-                "es": {"title": "Intereses {{personales}}"},
-                "fr": {"title": "Intérêts {{personnels}} "},
-                "ko": {"title": "개인 {{관심사}}"}
+                "en": {"title": "Personal {{interests}}"}
             },
             "items": [
                 {
                     "id": 1,
-                    "faIcon": "fa-solid fa-gamepad",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "locales": {
-                        "en": {
-                            "title": "Playing {{Video Games}}",
-                            "text": "Press start. Escape reality."
-                        },
-                        "es": {
-                            "title": "",
-                            "text": "."
-                        },
-                        "fr": {
-                            "title": "",
-                            "text": "."
-                        },
-                        "ko": {
-                            "title": "{",
-                            "text": "다."
-                        }
-                    }
-                },
-                {
-                    "id": 2,
                     "faIcon": "fa-solid fa-video",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -143,24 +159,12 @@
                     "locales": {
                         "en": {
                             "title": "{{Video}} editing",
-                            "text": "Turning clips into stories."
-                        },
-                        "es": {
-                            "title": "",
-                            "text": ""
-                        },
-                        "fr": {
-                            "title": "",
-                            "text": "."
-                        },
-                        "ko": {
-                            "title": "",
-                            "text": "."
+                            "text": "Learning to use Adobe Premiere Pro, Adobe After Effects and other video editing softwares."
                         }
                     }
                 },
                 {
-                    "id": 3,
+                    "id": 2,
                     "faIcon": "fa-solid fa-palette",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -168,24 +172,12 @@
                     "locales": {
                         "en": {
                             "title": "{{Graphics Design}} & Illustration",
-                            "text": "From concept to clean vectors."
-                        },
-                        "es": {
-                            "title": "{{Arte}} y Ilustración",
-                            "text": "."
-                        },
-                        "fr": {
-                            "title": "",
-                            "text": "."
-                        },
-                        "ko": {
-                            "title": "",
-                            "text": "."
+                            "text": "Practicing digital art and exploring new styles using Adobe Illustrator, Canva"
                         }
                     }
                 },
                 {
-                    "id": 4,
+                    "id": 3,
                     "faIcon": "fa-solid fa-film",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -193,12 +185,12 @@
                     "locales": {
                         "en": {
                             "title": "{{Movies}} and Series ",
-                            "text": "Rewinding the classics, rethinking the world."
+                            "text": "Enjoy thought-provoking films and classics that inspire creativity and problem-solving."
                         }
                     }
                 },
                 {
-                    "id": 5,
+                    "id": 4,
                     "faIcon": "fa-solid fa-book",
                     "faIconColors": {"bg": "", "fill": ""},
                     "label": null,
@@ -206,12 +198,12 @@
                     "locales": {
                         "en": {
                             "title": "{{Reading}} Books",
-                            "text": "Flipping pages, fueling ideas."
+                            "text": "Passionate about thrillers, classics, and thought-provoking reads; also enjoy books on science, engineering, and design to fuel creativity and critical thinking."
                         }
                     }
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "img": "",
                     "faIcon": "fa-solid fa-camera-retro",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -220,11 +212,23 @@
                     "locales": {
                         "en": {
                             "title": "{{Photography}} & Photoshop",
-                            "text": "Painting with pixels."
+                            "text": "Enhancing photos through creative editing techniques."
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{Video Games}}",
+                            "text": "Exploring different games."
                         }
                     }
                 }
-                
             ]
         }
     ]

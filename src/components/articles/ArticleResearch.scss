@@ -1,0 +1,191 @@
+@import "/src/styles/extend.scss";
+
+$column-breakpoint: lg;
+
+div.article-research {
+    --card-gap: 20px;
+    --card-width: 350px;
+    --card-height: 500px;
+    --spacing: 30px;
+    --avatar-width: 600px;
+    --avatar-height: 360px;
+
+    @include media-breakpoint-down(xxl) {
+        --card-width: 320px;
+        --card-height: 470px;
+        --avatar-width: 500px;
+        --avatar-height: 300px;
+    }
+    @include media-breakpoint-down(xl) {
+        --card-width: 280px;
+        --card-height: 430px;
+        --avatar-width: 420px;
+        --avatar-height: 250px;
+    }
+    @include media-breakpoint-down(lg) {
+        --card-width: 100%;
+        --card-height: 400px;
+        --avatar-width: 380px;
+        --avatar-height: 230px;
+    }
+    @include media-breakpoint-down(md) {
+        --card-height: 370px;
+        --avatar-width: 320px;
+        --avatar-height: 190px;
+    }
+}
+
+div.article-research-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: var(--spacing);
+    padding: 0 10px;
+
+    h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        margin: 0;
+        color: #000000;
+
+        @include media-breakpoint-down(md) {
+            font-size: 2rem;
+        }
+    }
+
+    .research-icon {
+        font-size: 2.5rem;
+        color: #ff1493;
+        opacity: 0.7;
+    }
+}
+
+div.article-research-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--card-gap);
+    width: 100%;
+
+    @include media-breakpoint-down($column-breakpoint) {
+        grid-template-columns: 1fr;
+    }
+}
+
+div.article-research-card {
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    height: var(--card-height);
+    cursor: pointer;
+    border: 2px solid #e0e0e0;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 20px rgba(255, 20, 147, 0.3);
+        border-color: #ff1493;
+    }
+}
+
+div.article-research-image-wrapper {
+    width: 100%;
+    height: var(--avatar-height);
+    min-height: var(--avatar-height);
+    overflow: hidden;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    position: relative;
+
+    // Fallback for broken images - show icon
+    .article-research-avatar-view {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        i {
+            font-size: 5rem;
+            color: #ff1493;
+            opacity: 0.6;
+        }
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        
+        // Hide broken image icon
+        &[src=""],
+        &:not([src]) {
+            display: none;
+        }
+    }
+}
+
+div.article-research-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    background: #ffffff;
+    border-top: 1px solid #f0f0f0;
+
+    h4 {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+        color: #000000;
+        line-height: 1.4;
+
+        @include media-breakpoint-down(md) {
+            font-size: 1.3rem;
+        }
+    }
+}
+
+div.article-research-button-wrapper {
+    margin-top: var(--spacing);
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+
+    button {
+        padding: 15px 40px;
+        font-size: 1.2rem;
+        font-weight: 700;
+        border-radius: 8px;
+        border: 2px solid #ff1493;
+        background-color: #ff1493;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #ff1493;
+            transform: scale(1.05);
+        }
+
+        &:active {
+            transform: scale(0.98);
+        }
+
+        @include media-breakpoint-down(md) {
+            padding: 12px 30px;
+            font-size: 1.1rem;
+        }
+    }
+}
