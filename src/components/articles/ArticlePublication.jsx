@@ -59,7 +59,12 @@ function ArticlePublicationsItem({ itemWrapper }) {
             {/* Main content: title, author, journal */}
             <div className={`article-publications-content`}>
                 <h4 className={`article-publications-title`}>
-                    {itemWrapper.locales.title || itemWrapper.placeholder}
+                    {(itemWrapper.locales.title || itemWrapper.placeholder)
+                        .split('\n')
+                        .map((line, i) => (
+                            <span key={i}>{line.trim()}{i < (itemWrapper.locales.title || '').split('\n').length - 1 && <br/>}</span>
+                        ))
+                    }
                 </h4>
 
                 {itemWrapper.author && (

@@ -158,19 +158,19 @@
             },
             "items": [
                 {
-                    "id": 1,
-                    "faIcon": "fa-solid fa-file-alt",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "author": "Aryan Nafis",
-                    "journal": "International Journal of Mechanical Engineering, 2025",
-                    "badge": "Accepted",
-                    "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
-                    "locales": {
-                        "en": {
-                            "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids \n\n SSRN Electronic Journal \n Authors: Aryan Nafis, Afia Mahmuda Momtaz"
-                        }
-                    }
-                }
+    "id": 1,
+    "faIcon": "fa-solid fa-file-alt",
+    "faIconColors": {"bg": "", "fill": ""},
+    "author": "Authors: Aryan Nafis, Afia Mahmuda Momtaz",
+    "journal": "SSRN Electronic Journal, 2025",
+    "badge": "Accepted",
+    "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
+    "locales": {
+        "en": {
+            "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
+        }
+    }
+}
             ]
         }
     ]
