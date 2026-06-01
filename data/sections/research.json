@@ -168,12 +168,11 @@
       "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
       "locales": {
         "en": {
-          "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
-          
-        },
-        "author": "Aryan Nafis",
+          "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids",
+          "author": "Aryan Nafis",
           "journal": "International Journal of Mechanical Engineering, 2025",
           "badge": "Accepted"
+        }
       }
     }
   ]
