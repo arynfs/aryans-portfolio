@@ -39,27 +39,6 @@
             },
             "items": [
 
-                    {
-                    "id": 1,
-                    "img": null,
-                    "faIcon": "fa-solid fa-book",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "locales": {
-                        "en": {
-                            "title": "Infinite",
-                            "text": "Exam Boycott"
-                        },
-                        "es": {
-                            "text": ""
-                        },
-                        "fr": {
-                            "text": ""
-                        },
-                        "ko": {
-                            "text": ""
-                        }
-                    }
-                },
 
                 {
                     "id": 2,
