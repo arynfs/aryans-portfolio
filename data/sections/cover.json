@@ -151,6 +151,19 @@
             },
             "items": [
                 {
+                    "id": 6,
+                    "faIcon": "fa-solid fa-gamepad",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "label": null,
+                    "link": {"href": null, "tooltipString": null},
+                    "locales": {
+                        "en": {
+                            "title": "Playing {{Video Games}}",
+                            "text": "Exploring different games."
+                        }
+                    }
+                },
+                {
                     "id": 1,
                     "faIcon": "fa-solid fa-video",
                     "faIconColors": {"bg": "", "fill": ""},
@@ -215,20 +228,8 @@
                             "text": "Enhancing photos through creative editing techniques."
                         }
                     }
-                },
-                {
-                    "id": 6,
-                    "faIcon": "fa-solid fa-gamepad",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "label": null,
-                    "link": {"href": null, "tooltipString": null},
-                    "locales": {
-                        "en": {
-                            "title": "Playing {{Video Games}}",
-                            "text": "Exploring different games."
-                        }
-                    }
                 }
+                
             ]
         }
     ]
