@@ -170,20 +170,6 @@
                             "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
                         }
                     }
-                },
-                {
-                    "id": 2,
-                    "faIcon": "fa-solid fa-file-alt",
-                    "faIconColors": {"bg": "", "fill": ""},
-                    "author": "Aryan Nafis",
-                    "journal": "ICME 2025",
-                    "badge": "Accepted",
-                    "link": {"href": "", "tooltipString": "View Publication"},
-                    "locales": {
-                        "en": {
-                            "title": "YOUR ICME 2025 PAPER TITLE HERE"
-                        }
-                    }
                 }
             ]
         }
