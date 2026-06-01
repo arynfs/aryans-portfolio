@@ -45,7 +45,6 @@
             "items": [
                 {
                     "id": 1,
-                    
                     "faIcon": "fa-solid fa-fire",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
@@ -71,7 +70,6 @@
                 },
                 {
                     "id": 2,
-                    
                     "faIcon": "fa-solid fa-wind",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
@@ -97,7 +95,6 @@
                 },
                 {
                     "id": 3,
-                    
                     "faIcon": "fa-solid fa-atom",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
@@ -123,7 +120,6 @@
                 },
                 {
                     "id": 4,
-                    
                     "faIcon": "fa-solid fa-brain",
                     "faIconColors": {"bg": "", "fill": ""},
                     "date": {"year": null, "month": null},
@@ -151,32 +147,45 @@
         },
 
         {
-  "id": 2,
-  "component": "ArticlePublication",
-  "locales": {
-    "en": {"title": "Publications"}
-  },
-  "settings": {
-    "order_items_by": "id",
-    "order_items_sort": "desc"
-  },
-  "items": [
-    {
-      "id": 1,
-      "faIcon": "fa-solid fa-file-alt",
-      "faIconColors": {"bg": "", "fill": ""},
-      "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
-      "locales": {
-        "en": {
-          "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids",
-          "author": "Aryan Nafis",
-          "journal": "International Journal of Mechanical Engineering, 2025",
-          "badge": "Accepted"
+            "id": 2,
+            "component": "ArticlePublication",
+            "locales": {
+                "en": {"title": "Publications"}
+            },
+            "settings": {
+                "order_items_by": "id",
+                "order_items_sort": "desc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "faIcon": "fa-solid fa-file-alt",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "author": "Aryan Nafis",
+                    "journal": "International Journal of Mechanical Engineering, 2025",
+                    "badge": "Accepted",
+                    "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
+                    "locales": {
+                        "en": {
+                            "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "faIcon": "fa-solid fa-file-alt",
+                    "faIconColors": {"bg": "", "fill": ""},
+                    "author": "Aryan Nafis",
+                    "journal": "ICME 2025",
+                    "badge": "Accepted",
+                    "link": {"href": "", "tooltipString": "View Publication"},
+                    "locales": {
+                        "en": {
+                            "title": "YOUR ICME 2025 PAPER TITLE HERE"
+                        }
+                    }
+                }
+            ]
         }
-      }
-    }
-  ]
-}
-
     ]
 }
