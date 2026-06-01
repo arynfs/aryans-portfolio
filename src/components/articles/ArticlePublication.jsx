@@ -2,12 +2,6 @@ import "./ArticlePublication.scss"
 import React, { useState } from 'react'
 import Article from "/src/components/articles/base/Article.jsx"
 
-/**
- * @param {ArticleDataWrapper} dataWrapper
- * @param {Number} id
- * @return {JSX.Element}
- * @constructor
- */
 function ArticlePublication({ dataWrapper, id }) {
     const [selectedItemCategoryId, setSelectedItemCategoryId] = useState(null)
 
@@ -25,12 +19,6 @@ function ArticlePublication({ dataWrapper, id }) {
     )
 }
 
-/**
- * @param {ArticleDataWrapper} dataWrapper
- * @param {String} selectedItemCategoryId
- * @return {JSX.Element}
- * @constructor
- */
 function ArticlePublicationsList({ dataWrapper, selectedItemCategoryId }) {
     const filteredItems = dataWrapper.getOrderedItemsFilteredBy(selectedItemCategoryId)
 
@@ -43,11 +31,6 @@ function ArticlePublicationsList({ dataWrapper, selectedItemCategoryId }) {
     )
 }
 
-/**
- * @param {ArticleItemDataWrapper} itemWrapper
- * @return {JSX.Element}
- * @constructor
- */
 function ArticlePublicationsItem({ itemWrapper }) {
     const handleItemClick = () => {
         if (itemWrapper.link && itemWrapper.link.href) {
@@ -55,10 +38,10 @@ function ArticlePublicationsItem({ itemWrapper }) {
         }
     }
 
-    const hasBadge = itemWrapper.locales.badge
+    const hasBadge = itemWrapper.badge
 
     return (
-        <li className={`article-publications-item`} 
+        <li className={`article-publications-item`}
             onClick={handleItemClick}
             role="button"
             tabIndex={0}
@@ -67,7 +50,7 @@ function ArticlePublicationsItem({ itemWrapper }) {
                     handleItemClick()
                 }
             }}>
-            
+
             {/* Left icon */}
             <div className={`article-publications-icon`}>
                 <i className={itemWrapper.faIcon || 'fa-solid fa-file-alt'}></i>
@@ -79,19 +62,19 @@ function ArticlePublicationsItem({ itemWrapper }) {
                     {itemWrapper.locales.title || itemWrapper.placeholder}
                 </h4>
 
-                {itemWrapper.locales.author && (
-                    <p className="article-publications-author">{itemWrapper.locales.author}</p>
+                {itemWrapper.author && (
+                    <p className="article-publications-author">{itemWrapper.author}</p>
                 )}
 
-                {itemWrapper.locales.journal && (
-                    <p className="article-publications-journal">{itemWrapper.locales.journal}</p>
+                {itemWrapper.journal && (
+                    <p className="article-publications-journal">{itemWrapper.journal}</p>
                 )}
             </div>
 
             {/* Badge / status */}
             {hasBadge && (
-                <div className={`article-publications-badge ${itemWrapper.locales.badge?.toLowerCase()}`}>
-                    {itemWrapper.locales.badge}
+                <div className={`article-publications-badge ${itemWrapper.badge?.toLowerCase()}`}>
+                    {itemWrapper.badge}
                 </div>
             )}
 
@@ -105,9 +88,6 @@ function ArticlePublicationsItem({ itemWrapper }) {
     )
 }
 
-/**
- * Trailing empty item for timeline effect
- */
 function ArticlePublicationsTrailingItem() {
     return (
         <li className={`article-publications-item article-publications-item-trailing`}>
