@@ -1,15 +1,50 @@
 {
-    "title": {
-        "locales": {
-            "en": {
-                "title_short": "Awards",
-                "title_short_nav": "Achievements",
-                "title_long_prefix": " ",
-                "title_long": "Working on it"
-            }
-        }
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Achievements",
+        "title_short_nav": "Achievements",
+        "title_long_prefix": "Here are my",
+        "title_long": "{{Achievements}}"
+      }
     }
+  },
 
-    
-            
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleText",
+      "locales": {
+        "en": { "title": "{{Achievements}}" }
+      },
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "asc"
+      },
+      "items": [
+        {
+          "id": 1,
+          "img": "images/pictures/cad.jpeg",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>2nd Runners Up | CAQQUEST 3.0</div><div style='font-size:1.6rem;'>BUET Automobile Club</div>"
+            }
+          }
+        },
+        {
+          "id": 2,
+          "img": "images/pictures/ieee.png",
+          "faIcon": "",
+          "faIconColors": { "bg": "", "fill": "" },
+          "locales": {
+            "en": {
+              "text": "<div style='font-size:1.8rem; font-weight:bold;'>Champion | Creative Writing Contest</div><div style='font-size:1.6rem;'>Industry 4.0: Smart Industry Management — IEEE NSU IAS Student Branch Chapter</div>"
+            }
+          }
         }
+      ]
+    }
+  ]
+}
