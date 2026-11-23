@@ -154,23 +154,38 @@
             },
             "settings": {
                 "order_items_by": "id",
-                "order_items_sort": "desc"
+                "order_items_sort": "asc"
             },
             "items": [
                 {
-    "id": 1,
-    "faIcon": "fa-solid fa-file-alt",
-    "faIconColors": {"bg": "", "fill": ""},
-    "author": "Authors: Aryan Nafis, Afia Mahmuda Momtaz",
-    "journal": "SSRN Electronic Journal, 2025",
-    "badge": "Accepted",
-    "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
-    "locales": {
-        "en": {
-            "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids \n\n SSRN Electronic Journal, 2025 \n\n Authors: Aryan Nafis, Afia Mahmuda Momtaz, Tajwar Razib, Dr. Anup"
-        }
-    }
-}
+                    "id": 1,
+                    "link": {"href": "", "tooltipString": "View Publication"},
+                    "publication": {
+                        "type": "Preprint",
+                        "date": "July 2026",
+                        "authors": ["Aryan Nafis", "Afia Momtaz", "Tajwar Razib", "Anup Saha"]
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Thermodynamic Stratification of Dual-Working-Fluid ORC-Driven Vapor Compression Refrigeration Systems Based on Critical Property Compatibility"
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "link": {"href": "http://dx.doi.org/10.2139/ssrn.6204778", "tooltipString": "View Publication"},
+                    "publication": {
+                        "type": "Presentation",
+                        "date": "December 2025",
+                        "venue": "SSRN Electronic Journal",
+                        "authors": ["Aryan Nafis", "Afia Momtaz", "Tajwar Razib", "Anup Saha"]
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "A Comprehensive Study on Energy, COP, and Exergy of a Coupled ORC–VCC Cogeneration System Employing Dual Working Fluids"
+                        }
+                    }
+                }
             ]
         }
     ]

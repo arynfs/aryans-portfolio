@@ -31,72 +31,91 @@ function ArticlePublicationsList({ dataWrapper, selectedItemCategoryId }) {
     )
 }
 
-function ArticlePublicationsItem({ itemWrapper }) {
-    const handleItemClick = () => {
-        if (itemWrapper.link && itemWrapper.link.href) {
-            window.open(itemWrapper.link.href, '_blank', 'noopener,noreferrer')
-        }
-    }
-
-    const hasBadge = itemWrapper.badge
-
-    return (
-        <li className={`article-publications-item`}
-            onClick={handleItemClick}
-            role="button"
-            tabIndex={0}
-            onKeyPress={(e) => {
-                if (e.key === 'Enter' || e.key === ' ') {
-                    handleItemClick()
-                }
-            }}>
-
-            {/* Left icon */}
-            <div className={`article-publications-icon`}>
-                <i className={itemWrapper.faIcon || 'fa-solid fa-file-alt'}></i>
-            </div>
-
-            {/* Main content: title, author, journal */}
-            <div className={`article-publications-content`}>
-                <h4 className={`article-publications-title`}>
-                    {(itemWrapper.locales.title || itemWrapper.placeholder)
-                        .split('\n')
-                        .map((line, i) => (
-                            <span key={i}>{line.trim()}{i < (itemWrapper.locales.title || '').split('\n').length - 1 && <br/>}</span>
-                        ))
-                    }
-                </h4>
-
-                {itemWrapper.author && (
-                    <p className="article-publications-author">{itemWrapper.author}</p>
-                )}
-
-                {itemWrapper.journal && (
-                    <p className="article-publications-journal">{itemWrapper.journal}</p>
-                )}
-            </div>
-
-            {/* Badge / status */}
-            {hasBadge && (
-                <div className={`article-publications-badge ${itemWrapper.badge?.toLowerCase()}`}>
-                    {itemWrapper.badge}
-                </div>
-            )}
-
-            {/* Optional link icon */}
-            {itemWrapper.link && itemWrapper.link.href && (
-                <div className={`article-publications-link-icon`}>
-                    <i className={`fa-solid fa-arrow-right`}></i>
-                </div>
-            )}
-        </li>
-    )
+function getInitials(name) {
+    return name
+        .split(/\s+/)
+        .filter(Boolean)
+        .map(part => part[0])
+        .slice(0, 2)
+        .join("")
+        .toUpperCase()
 }
 
-function ArticlePublicationsTrailingItem() {
+function ArticlePublicationsItem({ itemWrapper }) {
+    const [copied, setCopied] = useState(false)
+
+    const publication = itemWrapper.publication || {}
+    const authors = publication.authors || []
+    const href = itemWrapper.link?.href
+    const title = (itemWrapper.locales.title || itemWrapper.placeholder || "").trim()
+
+    const handleShare = async () => {
+        const url = href || window.location.href
+        try {
+            if (navigator.share) {
+                await navigator.share({ title, url })
+                return
+            }
+            await navigator.clipboard.writeText(url)
+            setCopied(true)
+            setTimeout(() => setCopied(false), 2000)
+        } catch (e) { /* user cancelled or clipboard unavailable */ }
+    }
+
+    const meta = [publication.date, publication.venue].filter(Boolean)
+
     return (
-        <li className={`article-publications-item article-publications-item-trailing`}>
-            <div className={`article-publications-icon`}></div>
+        <li className={`article-publications-item`}>
+            <h4 className={`article-publications-title`}>
+                {href ? (
+                    <a href={href} target="_blank" rel="noopener noreferrer">{title}</a>
+                ) : title}
+            </h4>
+
+            {(publication.type || meta.length > 0) && (
+                <div className={`article-publications-meta`}>
+                    {publication.type && (
+                        <span className={`article-publications-type article-publications-type-${publication.type.toLowerCase()}`}>
+                            {publication.type}
+                        </span>
+                    )}
+                    {meta.length > 0 && (
+                        <span className={`article-publications-date`}>{meta.join(" · ")}</span>
+                    )}
+                </div>
+            )}
+
+            {authors.length > 0 && (
+                <ul className={`article-publications-authors`}>
+                    {authors.map((author, i) => (
+                        <li key={i} className={`article-publications-author`}>
+                            <span className={`article-publications-avatar`}>{getInitials(author)}</span>
+                            <span>{author}</span>
+                        </li>
+                    ))}
+                </ul>
+            )}
+
+            <div className={`article-publications-actions`}>
+                {href ? (
+                    <a className={`article-publications-btn article-publications-btn-primary`}
+                       href={href}
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View
+                    </a>
+                ) : (
+                    <span className={`article-publications-btn article-publications-btn-primary disabled`}>
+                        Coming soon
+                    </span>
+                )}
+
+                <button type="button"
+                        className={`article-publications-btn article-publications-btn-secondary`}
+                        onClick={handleShare}>
+                    {copied ? "Link copied" : "Share"}
+                </button>
+            </div>
         </li>
     )
 }

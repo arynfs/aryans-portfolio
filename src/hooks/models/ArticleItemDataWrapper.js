@@ -45,6 +45,7 @@ export default class ArticleItemDataWrapper {
         this.locales = this._parseLocales(rawData.locales, language)
         this.percentage = this._parseNumber(rawData.percentage, 0, 100)
         this.preview = this._parsePreview(rawData.preview, language)
+        this.publication = rawData.publication
     }
 
     _parseNumber(rawNumber, min = -99999999999, max = 99999999999) {

@@ -1,0 +1,445 @@
+{
+    "title": {
+        "locales": {
+            "en": {
+                "title_short": "Creative Works",
+                "title_short_nav": "Creative",
+                "title_long_prefix": "Take a look at",
+                "title_long": "My {{Creative Works}}"
+            },
+            "es": {
+                "title_short": "Trabajos Creativos",
+                "title_short_nav": "Creativo",
+                "title_long_prefix": "Explora",
+                "title_long": "Mis {{Trabajos Creativos}}"
+            },
+            "fr": {
+                "title_short": "Créations",
+                "title_short_nav": "Créations",
+                "title_long_prefix": "Découvrez",
+                "title_long": "Mes {{Créations}}"
+            },
+            "ko": {
+                "title_short": "창작물",
+                "title_short_nav": "창작물",
+                "title_long_prefix": "이것은 내",
+                "title_long": "{{창작물}}입니다"
+            }
+        }
+    },
+    "articles": [
+        {
+            "id": 1,
+            "component": "ArticlePortfolio",
+            "locales": {
+                "en": {
+                    "category_all": "All",
+                    "category_video": "Video Editing",
+                    "category_graphics": "Graphic Design"
+                },
+                "es": {
+                    "category_all": "Todo",
+                    "category_video": "Edición de Video",
+                    "category_graphics": "Diseño Gráfico"
+                },
+                "fr": {
+                    "category_all": "Tout",
+                    "category_video": "Montage Vidéo",
+                    "category_graphics": "Design Graphique"
+                },
+                "ko": {
+                    "category_all": "모두",
+                    "category_video": "영상 편집",
+                    "category_graphics": "그래픽 디자인"
+                }
+            },
+            "settings": {
+                "categorize_by": [
+                    "category_video",
+                    "category_graphics"
+                ],
+                "order_items_by": "id",
+                "order_items_sort": "asc"
+            },
+            "items": [
+                {
+                    "id": 1,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            ""
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=OzdpFLNQd8c"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BAC Freshers Reception Promo",
+                            "text": "Promotional video for BAC Freshers Reception showcasing event highlights.",
+                            "tags": [
+                                "Video",
+                                "Promo",
+                                "Event"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/harmony_of_motion_promo.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=H48cUuO6JQ8"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Harmony of Motion Promo",
+                            "text": "A cinematic promo video for Harmony of Motion.",
+                            "tags": [
+                                "Video",
+                                "Promo",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 3,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/bac_recruitment_promo.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=RUo6PpDmWwc"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "BAC Recruitment Promo",
+                            "text": "Promotional video for student recruitment at BAC, highlighting activities and opportunities.",
+                            "tags": [
+                                "Video",
+                                "Promo",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 4,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/bac.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/cadquest_promo.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=ew3BKJMo6q4"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "CADQuest 2.0 Promo",
+                            "text": "Promotional video for the CADQuest event, showcasing design and engineering challenges.",
+                            "tags": [
+                                "Video",
+                                "Promo",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 5,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            ""
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=S-hZdE2axmI&t=435s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "VPR for Anatolian Rover Challenge",
+                            "text": "Video project report for Anatolian Rover Challenge team Interplanetar.",
+                            "tags": [
+                                "Video",
+                                "VPR",
+                                "Competition",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 6,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/intp.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=rKkn6-Ynpz0"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "A day in Team Interplanetar",
+                            "text": "Peek into what's inside Team Interplanetar",
+                            "tags": [
+                                "Video",
+                                "Montage",
+                                "Team",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 7,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/team_interplanetar_years.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=szdmrlVikNo&t=14s"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Team Interplanetar Throughout the Years",
+                            "text": "A compilation video documenting the progress and highlights of team Interplanetar over the years.",
+                            "tags": [
+                                "Video",
+                                "Team",
+                                "Compilation",
+                                "Cinematography",
+                                "Adobe Premiere Pro",
+                                "Adobe After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 8,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/nblogo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/nb1.jpg",
+                            "images/pictures/nb2.jpg"
+                        ],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Nitroblaze Posters (BAC)",
+                            "text": "Promotional posters created for BAC's Nitroblaze event.",
+                            "tags": [
+                                "Graphics",
+                                "Poster",
+                                "Design",
+                                "Canva"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 9,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/atlogo.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/atcover.jpg",
+                            "images/pictures/atreg.jpg"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Autotalk Posters (BAC)",
+                            "text": "Promotional posters created for BAC's Autotalk event.",
+                            "tags": [
+                                "Graphics",
+                                "Poster",
+                                "Design",
+                                "Canva"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 10,
+                    "categoryId": "category_graphics",
+                    "img": "images/pictures/intp.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/1.png",
+                            "images/pictures/2.png",
+                            "images/pictures/3.png",
+                            "images/pictures/4.png"
+                        ],
+                        "screenshotsAspectRatio": "1:1",
+                        "youtubeVideo": ""
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Interplanetar Newsletter Poster",
+                            "text": "A poster design created for the Interplanetar newsletter.",
+                            "tags": [
+                                "Graphics",
+                                "Poster",
+                                "Newsletter"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 11,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/mc.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/mechronicles-teaser-1.png",
+                            "images/pictures/mechronicles-teaser-2.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=GyWGTax1Ubs"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mechronicles Teaser",
+                            "text": "A Dark-inspired teaser video for the Mechronicles event, intricately edited to bring a fresh, immersive visual experience.",
+                            "tags": [
+                                "Video",
+                                "Teaser",
+                                "Dark Theme",
+                                "Adobe PP",
+                                "After Effects"
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 12,
+                    "categoryId": "category_video",
+                    "img": "images/pictures/mc.png",
+                    "faIcon": "",
+                    "faIconColors": {
+                        "bg": "",
+                        "fill": ""
+                    },
+                    "preview": {
+                        "links": [],
+                        "screenshots": [
+                            "images/pictures/mechronicles-promo-1.png",
+                            "mc.png",
+                            "images/pictures/mechronicles-promo-3.png"
+                        ],
+                        "screenshotsAspectRatio": "16:9",
+                        "youtubeVideo": "https://www.youtube.com/watch?v=ujLBCDX3ioA"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Mechronicles Official Promo",
+                            "text": "An official promotional video for Mechronicles, creatively edited with intricate visuals and a Dark-inspired theme to captivate the audience.",
+                            "tags": [
+                                "Video",
+                                "Promotion",
+                                "Dark Theme",
+                                "Adobe PP",
+                                "After Effects"
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -25,10 +25,16 @@
             "faIcon": "fa-solid fa-magnifying-glass"
         },
         {
-            "id": "portfolio",
+            "id": "projects",
             "categoryId": "showcase",
-            "jsonPath": "/data/sections/portfolio.json",
-            "faIcon": "fa-solid fa-folder-open"
+            "jsonPath": "/data/sections/projects.json",
+            "faIcon": "fa-solid fa-gears"
+        },
+        {
+            "id": "creative",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/creative.json",
+            "faIcon": "fa-solid fa-palette"
         },
         {
             "id": "certificates",
